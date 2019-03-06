@@ -2,12 +2,19 @@ var http = require('http');
 var fs = require('fs');
 var url = require('url');
 var qs = require('querystring');
-var template = require('./lib/template.js');
 var path = require('path');
+
+// lib 에서 template 파일 가져오기
+var template = require('./lib/template.js');
+
+// npm 에서 다운받은 sanitize 가져오기
 var sanitizeHtml = require('sanitize-html');
 
+// 서버를 만든다
 var app = http.createServer(function(request,response){
+    // url 을 저장
     var _url = request.url;
+    //
     var queryData = url.parse(_url, true).query;
     var pathname = url.parse(_url, true).pathname;
     if(pathname === '/'){
