@@ -1,0 +1,12 @@
+
+            <a>
+    <h2 id="글 수정 페이지 구현하다." class="post-title">
+      글 수정 페이지 구현하다.
+    </h2>
+    <h3 id="글 추가 html을 글 수정 html로 바꾼 뒤 내부 로직을 구현하였다." class="post-subtitle">
+      글 추가 html을 글 수정 html로 바꾼 뒤 내부 로직을 구현하였다.
+    </h3>
+    <a href ="/delete/3" class="btn btn-danger float-right">delete</a>
+    <a href ="/adjust/3" class="btn btn-secondary float-right">Adjust</a>
+  <p id="2019년 3월 10일" class="post-meta">Posted by on 2019년 3월 10일</p>
+<hr></a>

@@ -1,0 +1,13 @@
+<a >
+    <h2 id="노드 프로젝트를 진행하다." class="post-title">
+      노드 프로젝트를 진행하다.
+    </h2>
+    <h3 id="Bootstrap에서 html 코드를 가져와서 편집하여 블로그 외면 제작" class="post-subtitle">
+      Bootstrap에서 html 코드를 가져와서 편집하여 블로그 외면 제작
+    </h3>
+    <a href ="/delete/1" class="btn btn-danger float-right">delete</a>
+    <a href ="/adjust/1" class="btn btn-secondary float-right">Adjust</a>
+  <p id="2019년 3월 7일"class="post-meta">Posted by
+    on 2019년 3월 7일</p>
+<hr>
+</a>
