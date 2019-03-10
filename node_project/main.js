@@ -574,7 +574,6 @@ app.get('/delete/:pageId', function(request, response) {
 app.post('/delete_process', function (request, response) {
     var post = request.body;
     var id = post.id;
-    console.log(id);
     fs.unlink(`data/${id}`, function (error) {
         response.redirect('/');
     })
